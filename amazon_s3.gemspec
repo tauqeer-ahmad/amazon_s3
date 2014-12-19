@@ -19,7 +19,6 @@ Gem::Specification.new do |spec|
     "README.md",
     "Rakefile",
     "lib/amazon_s3.rb",
-    "lib/amazon_s3/amazon_s3.rb",
     "amazon_s3.gemspec",
   ]
   spec.executables   = spec.files.grep(%r{^bin/}) { |f| File.basename(f) }
