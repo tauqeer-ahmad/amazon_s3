@@ -19,28 +19,28 @@ Or install it yourself as:
 
 ## Usage
 
-  AmazonS3::Handler.new("secret_access_key", "access_key_id", "bucket_name", "bucket_path")
+    AmazonS3::Handler.new("secret_access_key", "access_key_id", "bucket_name", "bucket_path")
 
 e.g
 
-  bucket name = "development"
-  bucket_path = "files/images"
+    bucket name = "development"
+    bucket_path = "files/images"
 
-  handler = AmazonS3::Handler.new("secret_access_key", "access_key_id", bucket_name, bucket_path)
+    handler = AmazonS3::Handler.new("secret_access_key", "access_key_id", bucket_name, bucket_path)
 
 This will look into development/files/images folder on s3.  
 
 If you want to upload to bucket only then skip bucket_path parameter   
-  bucket name = "development"
+    bucket name = "development"
 
-  handler = AmazonS3::Handler.new("secret_access_key", "access_key_id", bucket_name) 
+    handler = AmazonS3::Handler.new("secret_access_key", "access_key_id", bucket_name) 
     
 
-  handler.upload_file('file_path') 
-  => uploaded file name (random hex)
+    handler.upload_file('file_path') 
+    => uploaded file name (random hex)
 
-  hander.donwnload_file(file_name)
-  => file from s3
+    hander.donwnload_file(file_name)
+    => file from s3
 
 file_name is the file name of file on s3 retruned after download_file method.
 
