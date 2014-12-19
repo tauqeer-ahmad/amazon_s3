@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.version       = AmazonS3::VERSION
   spec.authors       = ["Tauqeer"]
   spec.email         = ["tauqeer.ahmad2008@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.summary       = %q{Using amazon_s3 you can directly upload and download files from amazon s3 buckets}
+  spec.description   = %q{Using amazon_s3 you can directly upload and download files from amazon s3 buckets}
   spec.homepage      = ""
   spec.license       = "MIT"
 
