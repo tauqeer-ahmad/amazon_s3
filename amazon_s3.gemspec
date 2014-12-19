@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["tauqeer.ahmad2008@gmail.com"]
   spec.summary       = %q{Using amazon_s3 you can directly upload and download files from amazon s3 buckets}
   spec.description   = %q{Using amazon_s3 you can directly upload and download files from amazon s3 buckets}
-  spec.homepage      = ""
+  spec.homepage      = "https://github.com/tauqeerahamd/amazon_s3"
   spec.license       = "MIT"
 
   spec.files = [
